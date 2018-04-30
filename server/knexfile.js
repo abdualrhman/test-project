@@ -4,9 +4,9 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      database: 'hyf_dev',
-      user:     'test',
-      password: 'test'
+      database: 'test',
+      user:     'root',
+      password: '1425300'
     },
     pool: {
       min: 2,
@@ -20,9 +20,9 @@ module.exports = {
  staging: {
     client: 'mysql',
     connection: {
-      database: 'hyf_staging',
-      user:     'test',
-      password: 'test'
+      database: 'test',
+      user:     'root',
+      password: '1425300'
     },
     pool: {
       min: 2,
